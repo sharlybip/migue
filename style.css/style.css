@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'K2D', sans-serif;
+}
+.header{
+    height: 110px;
+    width: 100%;
+    background-color: rgb(8, 2, 95);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.header figure {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.header h1 {
+    color: white;
+}
+.main{
+    height: 470px;
+    width: 100%;
+    background-color: rgb(218, 236, 235);
+}
+
+.container {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0, 0, 54);
+}
+.main__item--container-sucursales, 
+.main__item--container-segundomenu,
+.main__item--container-tercermenu  {
+    width: 300px;
+    height: auto;
+}
+
+.item{
+    width: 300px;
+    height: 30px;
+    padding: 3px 0px 0px 10px;
+    border: 1px solid rgb(69, 71, 66);
+    background-color: rgb(189, 226, 224);
+    display: none;
+
+}
+.item p {
+    display: none;
+}
+.item-title{
+    width: 300px;
+    height: 50px;
+    padding: 10px 0px 0px 10px;
+    color: white;
+    display: block;
+    background-color: transparent;
+}
+.item-title:hover {
+    background-color: rgba(250, 250, 250, 0.068);
+}
+.item:hover  {
+    display: block;
+    background-color: rgba(250, 250, 250, 0.068);
+    height: 150px;
+
+}
+.item:hover p {
+    display: block;
+}
+
+.main__item--container-sucursales:hover .item,
+.main__item--container-segundomenu:hover .item,
+.main__item--container-tercermenu:hover .item{
+    display: block;
+    font-size: 16px;
+}
+.footer {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(7, 51, 80);
+    margin-top: auto;
+    color: white;
+}
